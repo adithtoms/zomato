@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgba(0,0,0,0.5)url("./foodimages/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode:darken ;
+}
+
+.head{
+    padding-bottom: 50px;
+}
+
+.header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    align-items: center;
+   background-color: rgba(14, 14, 14, 0.7);
+    color: white;
+    
+}
+
+.navitems{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 25px;
+}
+.headpart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    color: white;
+    padding-top: 30px;
+}
+.image1{
+    height: 50px;
+    width: 250px;
+    opacity: 1;
+}
+.search>input{
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+}
+.body{
+    background-color: rgba(14, 14, 14, 0.8);
+    border: 1px solid black;
+    box-shadow: inset;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.items{
+    height: 280px;
+    width: 200px;
+    border: solid 1px rgb(133, 116, 116);
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(7, 7, 7);
+    color: rgb(241, 229, 229);
+    padding: 3px;
+    box-shadow:  rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+  
+}
+.items:hover{
+    transform: scale(1.5);
+    background-color: wheat;
+    color: black;
+}
+.pic{
+    display: flex;
+    justify-content: center;
+    
+}
+.image2{
+    height: 180px;
+    width: 200px;
+    border-radius: 20px;
+   
+    
+}
+.button{
+    background-color: rgb(232, 231, 239);
+    color: rgb(8, 8, 8);
+    width: 130px;
+    height: 30px;
+    border-radius: 40px;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+}
